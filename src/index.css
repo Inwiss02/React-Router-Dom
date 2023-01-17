@@ -6,8 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: aliceblue;
+  padding: 12px;
 }
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+.active {
+  font-weight: bold;
+}
+ .navbar-secondary{
+  display: flex;
+  gap: 20px;
+  background-color: #f0f0f0;
+  padding: 15px;
+ }
